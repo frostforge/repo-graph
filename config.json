@@ -1,0 +1,48 @@
+{
+  "shared_context_path": "C:/git/shared-context",
+  "tenant_variable_name": "v_tenant",
+  "repos": [
+    {
+      "name": "snowflake",
+      "path": "C:/git/snowflake",
+      "type": "dbt",
+      "enabled": true
+    },
+    {
+      "name": "bai_file_parser",
+      "path": "C:/git/bai_file_parser",
+      "type": "python",
+      "enabled": true
+    },
+    {
+      "name": "nap_file_parser",
+      "path": "C:/git/nap_file_parser",
+      "type": "python",
+      "enabled": true
+    },
+    {
+      "name": "pms_parser",
+      "path": "C:/git/pms_parser",
+      "type": "python",
+      "enabled": true
+    },
+    {
+      "name": "pgp_service",
+      "path": "C:/git/pgp_service",
+      "type": "python",
+      "enabled": true
+    },
+    {
+      "name": "chargeback-letter-service",
+      "path": "C:/git/chargeback-letter-service",
+      "type": "python",
+      "enabled": true
+    },
+    {
+      "name": "api-extractor-service",
+      "path": "C:/git/api-extractor-service",
+      "type": "python",
+      "enabled": true
+    }
+  ]
+}
